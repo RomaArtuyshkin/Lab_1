@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">   
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Моё изображение</title>
+    </head>
+    <body>
+      <a href="file:///C:/Users/1/Documents/Учеба/Вэб/index.html">О нас</a>
+      <img src="images/summer.jpeg" width="300" height="200"/>
+      <a href="images/summer.jpeg" download>Скачать архив</a>
+      <svg xmlns="http://www.w3.org/2000/svg" height="400" width="450">
+        <path d="M100 350 250 50m0 0 150 300" stroke="red" stroke-width="3" fill="none" />
+        <path d="M175 200h150" stroke="green" stroke-width="3" fill="none" />
+        <path d="M100 350q150-300 300 0" stroke="#00f" stroke-width="5" fill="none" />
+        <!-- Mark relevant points -->
+        <g stroke="#000" stroke-width="3">
+          <circle cx="100" cy="350" r="3" />
+          <circle cx="250" cy="50" r="3" />
+          <circle cx="400" cy="350" r="3" />
+        </g>
+        <!-- Label the points -->
+        <g font-size="30" font-family="sans-serif" text-anchor="middle">
+          <text x="100" y="350" dx="-30">A</text>
+          <text x="250" y="50" dy="-10">B</text>
+          <text x="400" y="350" dx="30">C</text>
+        </g>
+      </svg>
+      <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+      </svg> 
+      <svg width="400" height="150" xmlns="http://www.w3.org/2000/svg">
+          <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:red" />
+        </svg>
+        <svg height="210" width="500" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="100,10 40,198 190,78 10,78 160,198"
+        style="fill:lime;stroke:purple;stroke-width:5;" />
+        </svg>
+        <svg height="30" width="200" xmlns="http://www.w3.org/2000/svg">
+          <text x="0" y="15" fill="red" rotate="30">Hello, World!</text>
+        </svg>
+        <svg height="210" width="500" xmlns="http://www.w3.org/2000/svg">
+          <polyline points="0,0 50,150 100,75 150,50 200,140 250,140"
+        style="fill:none;stroke:green;stroke-width:3" />
+        </svg>
+        <svg id = "svg" width = "950" height = "910" style = "border: 2px solid rgb(204, 204, 204); margin-top: 10px;">
+          <rect x = "348" y = "95" width = "16" height = "16" class = "handle" polygonNo = "0" pointNo = "0"></rect>
+          <rect x = "582" y = "95" width = "16" height = "16" class = "handle" polygonNo = "0" pointNo = "1"></rect>
+          <polygon points = "348,206 598,206 598,106 348,106" id = "polygon" polygonNo = "1" fill = "#8DB0F5"></polygon>
+        </svg>
+        <video width="525" height="450" controls="controls" autoplay="true" loop="true" poster="images/poster.jpg">
+          <source src="media/structure.mp4" type='video/mp4'>
+        </video>
+        <a href="media/structure.mp4" download>Скачать видео</a>
+        <audio controls src="media/audio.mp3"></audio>
+        <a href="media/audio.mp3" downlad>Скачать аудио</a>
+        <a href="index.html">Первый сайт</a>
+        <a href="index2.html">Третий сайт</a>
+        <a href="table.html">Таблицы</a>
+    </body>  
+</html> 
