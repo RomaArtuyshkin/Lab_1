@@ -1,1 +1,1 @@
-https://github.com/RomaArtuyshkin/WEB/blob/main/LAB_1/index.html
+https://romaartuyshkin.github.io/WEB/LAB_1/
