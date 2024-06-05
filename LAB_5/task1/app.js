@@ -1,4 +1,3 @@
-
 // Переменные
 let age = "12";
 let name = "John";
